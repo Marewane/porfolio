@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marwane Laamiri — Full‑Stack Developer</title>
+    <meta name="description" content="Modern full‑stack developer portfolio.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="container nav">
+        <a href="#home" class="logo">MR1</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="menuBtn" class="menu-btn" aria-label="Open Menu">☰</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <div class="hero-text">
+          <h1>Full‑Stack Developer</h1>
+          <p>I build reliable web apps with MERN and Laravel/PHP. Also comfortable with Python and Java.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>About</h2>
+        <p>I'm Marwane, a full‑stack developer focused on clean, maintainable code and user‑centric design. I build scalable frontends and robust backends, and I love shipping polished products.</p>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <ul class="skills-grid">
+          <li>React</li><li>Node.js</li><li>Express</li><li>MongoDB</li><li>MySQL</li><li>Laravel</li>
+          <li>TypeScript</li><li>Tailwind CSS</li><li>Docker</li><li>Python</li><li>Java</li><li>Git</li>
+        </ul>
+      </section>
+
+      <section id="experience" class="section container">
+        <h2>Experience</h2>
+        <div class="experience-list">
+          <div class="experience-item">
+            <h3>Full‑Stack Developer <span class="exp-company">@ Inter</span></h3>
+            <span class="exp-date"> Arkx - 07/2025 – Present</span>
+            <p>
+              During my internship at Arkx, I worked as a full-stack developer intern where I contributed to building web applications using React for the frontend and Node.js with Express.js for the backend. I developed and integrated RESTful APIs to connect the user interface with server-side logic, collaborated on designing and optimizing MySQL databases, and built responsive interfaces with Tailwind CSS. I also gained experience in debugging, testing, and using Git/GitHub for version control while working in an Agile team environment.
+            </p>
+          </div>
+          <div class="experience-item">
+            <h3>Full Stack Developer Intern <span class="exp-company">@ Confidentiel</span></h3>
+            <span class="exp-date">05/2025</span>
+            <p>
+During my internship at  a real estate company, I worked as a full-stack developer intern where I built a promotional website to showcase the company’s real estate projects and services. I developed the backend using Laravel to manage content and data efficiently, and I implemented the frontend with React to create an interactive and responsive user experience. This project allowed me to combine modern design with dynamic functionality while gaining practical experience in full-stack development and deployment.            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="card">
+            <h3>Blog Backend API</h3>
+            <p>Node/Express + MongoDB REST API</p>
+            <div class="card-links">
+              <a href="https://github.com/Marewane/arkx_blog_backend_api_crud" target="_blank" rel="noreferrer" class="btn">GitHub</a>
+            </div>
+          </div>
+          <div class="card">
+            <h3>5Goals Platform</h3>
+            <p>Football talent platform (HTML/CSS/JS)</p>
+            <div class="card-links">
+              <a href="https://github.com/Marewane/5goals" target="_blank" rel="noreferrer" class="btn">GitHub</a>
+              <a href="https://4-goals.vercel.app/" target="_blank" rel="noreferrer" class="btn primary">Live Demo</a>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Full Stack Blog</h3>
+            <p>Laravel API + React front-end</p>
+            <div class="card-links">
+              <a href="https://github.com/Marewane/blog-site" target="_blank" rel="noreferrer" class="btn">GitHub</a>
+              <a href="https://blog-site-ebon-nine.vercel.app" target="_blank" rel="noreferrer" class="btn primary">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>Contact</h2>
+        <p>Say hello at <a href="mailto:marwane.laamiri.dev@gmail.com">marwane.laamiri.dev@gmail.com</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Marwane Laamiri</p>
+        <ul class="socials">
+          <li><a href="https://github.com/Marewane" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/marwane-laamiri-24a34b245/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
